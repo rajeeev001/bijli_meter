@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bijli.meter.myDevices">
+
+    <RelativeLayout android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#00adad"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_logo_head" />
+    </RelativeLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/logo"
+        android:fillViewport="true">
+
+        <GridLayout
+            android:id="@+id/gridWrap"
+            android:layout_width="match_parent"
+            android:columnCount="2"
+            android:layout_height="match_parent">
+
+            <RelativeLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/addDevice"
+                    android:layout_width="170dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:text="Add Device" />
+
+            </RelativeLayout>
+
+        </GridLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

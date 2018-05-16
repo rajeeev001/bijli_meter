@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "649655980929",
+    "firebase_url": "https://bijlimeter.firebaseio.com",
+    "project_id": "bijlimeter",
+    "storage_bucket": "bijlimeter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649655980929:android:4315d9e82addba8d",
+        "android_client_info": {
+          "package_name": "bijli.meter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649655980929-vrh8q72u50dohbcsss3hgufubo9pjvqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZeaWzP8gjlcdywSFCkVNYkMnXu22Jtqw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
